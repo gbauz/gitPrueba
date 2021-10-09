@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina Hipotetica</title>
+  </head>
+  <body>
+
+    <form class="form" action="prototipo.html" method="post">
+      <input type="text" name="texto" value="">
+      <input type="button" name="enviar" value="Enviar" onclick="enviarAlerta();">
+    </form>
+
+  <script type="text/javascript">
+    function enviarAlerta(){
+      let dato = document.getElementsByName('texto')[0].value;
+      alert(dato);
+    }
+  </script>
+  </body>
+</html>
