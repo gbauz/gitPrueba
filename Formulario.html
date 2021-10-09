@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+    <title>Runa chama</title>    
+  </head>
+  <body>
+    <style> 
+        @media only screen and (min-width:300px){ 
+          *{
+          box-sizing: border-box;
+        }
+           nav ul li a {  
+      font-family: 'Grandstander', cursive;
+      font-weight: bold;    
+      line-height:50px; /*Esta propiedad me permite crear un bloque completo*/
+  }
+  a:hover{
+    background: #A9A9A9	; 
+  
+}
+  
+  h6{
+       text-align: center;
+        font-size:40px;
+        font-weight: bold;    
+     }
+     #caja{
+  
+      display: flex;
+      flex-wrap: wrap;  
+      justify-content:center;  
+  }
+  .contenido{  
+      margin:5px;
+      width:300px;
+      height:200px;   
+      
+  }
+  #nombres{
+  font-weight: bold 
+}
+#edades{
+  font-weight: bold 
+}
+#ciudades{
+  font-weight: bold 
+}
+#paises{
+  font-weight: bold 
+}
+#inquietudes{
+  font-weight: bold 
+}
+.btn{  
+  font-family: 'Grandstander', cursive;
+  font-weight: bold; 
+  color:white; 
+  text-align: center;
+  
+}
+.trans{
+
+  display: flex;
+  justify-content: center;
+}
+
+    }
+    @media only screen and (min-width:500px){ 
+      *{
+          box-sizing: border-box;
+        }
+           nav ul li a {  
+      font-family: 'Grandstander', cursive;
+      font-weight: bold;    
+      line-height:50px; /*Esta propiedad me permite crear un bloque completo*/
+  }
+  a:hover{
+    background: #A9A9A9	; 
+  
+}
+  
+  h6{
+       text-align: center;
+        font-size:40px;
+        font-weight: bold;    
+     }
+     #caja{
+  
+      display: flex;
+      flex-wrap: wrap;  
+      justify-content:center;  
+  }
+  .contenido{ 
+    text-align: center; 
+      margin:5px;
+      width:550px;
+      height:400px;   
+      
+  }
+  #nombres{
+  font-weight: bold 
+}
+#edades{
+  font-weight: bold 
+}
+#ciudades{
+  font-weight: bold 
+}
+#paises{
+  font-weight: bold 
+}
+#inquietudes{
+  font-weight: bold 
+}
+.btn{  
+  font-family: 'Grandstander', cursive;
+  font-weight: bold; 
+  color:white; 
+  text-align: center;
+}
+    }
+@media only screen and (min-width:1200px){ 
+  *{
+          box-sizing: border-box;
+        }
+           nav ul li a {  
+      font-family: 'Grandstander', cursive;
+      font-weight: bold;    
+      line-height:50px; /*Esta propiedad me permite crear un bloque completo*/
+  }
+  a:hover{
+    background: #A9A9A9	; 
+  
+}
+#caja{
+  text-align: center;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:center;  
+    
+}
+.contenido{  
+    margin:5px;
+    width:400px;
+    height:400px;   
+    
+}
+  h6{
+     text-align: center;
+      font-size:40px;
+      font-weight: bold;    
+   }
+   h3{   
+  text-align: center; 
+   color: white;
+ }
+ p{
+   margin:14px;   
+  line-height:2em; 
+   color:white;
+   font-size:15px;
+   text-align: justify;
+ }
+ 
+.btn{  
+  font-family: 'Grandstander', cursive;
+  font-weight: bold; 
+  color:white; 
+  text-align: center;
+  
+}
+#nombres{
+  font-weight: bold 
+}
+#edades{
+  font-weight: bold 
+}
+#ciudades{
+  font-weight: bold 
+}
+#paises{
+  font-weight: bold 
+}
+#inquietudes{
+  font-weight: bold 
+}
+  
+
+  }
+
+      </style>
+      
+  <div id ="menu">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-danger navbar fixed-top ">
+        <div class="container-fluid">
+            <img src="https://drive.google.com/uc?id=1uqE4xZ-8EfkxgH9w7MN3BRXC2JndHdRl"alt="Imagen no disponible" title="Runa Chama una aventura sin igual!" width="130px" height="60px">
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Inicio</a>
+              </li>
+              <li class="nav-item active dropdown ">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-book-open"></i> Capitulos</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Conociendo nuestro pasado</a></li>
+                  <li><a class="dropdown-item" href="#">En busca de todo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Acercandonos a Machu Tomebamba</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="fas fa-book"></i> Sinopsis</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"> <i class="fas fa-address-book"></i>  Contactenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-donate"></i> Donar</a>
+              </li>
+            </ul>          
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br><br><br> <br><br> 
+     <h6>Contactenos</h6>
+     <br>
+     <section id="caja">
+      <article class="flotante contenido">
+        <form name="formulario">
+          <div class="row mb-3">
+            <label for="nombre" class="col-sm-2 col-form-label" id="nombres">Nombre</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="nombre"  onkeypress="return sololetras(event)"  placeholder="Ingrese sus nombres completos">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="edad" class="col-sm-2 col-form-label" id="edades">Edad</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="edad" onkeypress="return validarNumero(event);">
+            </div>
+          </div>         
+          <div class="row mb-3">
+            <label for="Ciudad" class="col-sm-2 col-form-label"  id="ciudades">Ciudad</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="ciudad" onkeypress="return sololetras(event)">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="pais" class="col-sm-2 col-form-label" id="paises">País</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" name="pais" onkeypress="return sololetras(event)">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" id="inquietudes">Escriba su inquietud</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="contacto"></textarea>
+          </div> 
+          <br>  
+          <div class="trans"> 
+            
+          <button type="button" class="btn btn-danger" name="enviar" value="confirmar" onClick="mostrar()">Enviar
+            
+          </div>  
+          <br>
+        </form>
+      </article>
+      </section>
+      <script language="JavaScript"> 
+
+        function mostrar() { 
+        var nom=document.formulario.nombre.value; var ed=document.formulario.edad.value; 
+        var ciu=document.formulario.ciudad.value; var pa=document.formulario.pais.value;
+        var con=document.formulario.contacto.value;
+        alert('Su nombre es :' + nom);
+        alert('La edad :' + ed);
+        alert('La ciudad es :'+ciu);
+        alert('El pais es:'+pa);
+      alert('Su inquietud es:'+con); } 
+
+      function validarNumero(evt){    
+
+    var code = (evt.which) ? evt.which : evt.keyCode;
+    
+    if(code==8) { 
+      return true;
+    } else if(code>=48 && code<=57) { 
+      return true;
+    } else{
+      return false;
+    }
+}
+function sololetras(e) {
+        key=e.keyCode || e.which;
+ 
+        teclado=String.fromCharCode(key).toLowerCase();
+ 
+        letras="qwertyuiopasdfghjklñzxcvbnm ";
+ 
+        especiales="8-37-38-46-164";
+ 
+        teclado_especial=false;
+ 
+        for(var i in especiales){
+            if(key==especiales[i]){
+                teclado_especial=true;
+                break;
+            }
+        }
+ 
+        if(letras.indexOf(teclado)==-1 && !teclado_especial){
+            return false;
+        }
+    }
+
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      
+
+  </body>
+</html>
